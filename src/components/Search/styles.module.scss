@@ -1,0 +1,23 @@
+@import 'assets/styles/mixins/colors';
+
+.root {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1;
+  position: inherit;
+}
+
+.input{
+  width: 100%;
+  background-color: $input-primary-light-bg;
+  margin-right: 10px;
+  padding: 18px 20px;
+  border-radius: 5px;
+  color: $primary-color;
+}
+
+.button {
+  padding: 15px 75px;
+}
+

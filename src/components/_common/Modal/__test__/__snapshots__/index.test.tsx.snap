@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Modal component should render Modal component by default 1`] = `
+<div
+  className="root"
+>
+  <div
+    className="overlay"
+  >
+    <div
+      className="modal"
+    >
+      <button
+        className="closeBtn"
+        onClick={[Function]}
+      >
+        +
+      </button>
+      Modal content
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Modal component should render Modal component with value of isOpen is false   1`] = `null`;

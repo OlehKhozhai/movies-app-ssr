@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ErrorMessages component should render ErrorMessage component by default 1`] = `
+<p
+  className="root"
+>
+  Error message
+</p>
+`;

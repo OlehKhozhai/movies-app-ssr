@@ -1,0 +1,23 @@
+@import 'assets/styles/mixins/colors';
+
+.root {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-flow: wrap;
+  background-color: $primary-bg;
+  color: $primary-color;
+  padding: 20px 60px;
+}
+
+.counter {
+  width: 100%;
+  padding: 15px 0px 25px;
+}
+
+.noMovieFound {
+  text-align: center;
+  padding: 150px 0;
+  width: 100%;
+  font-size: 30px;
+}

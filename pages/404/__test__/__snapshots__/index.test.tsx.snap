@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NotFound component should render markup by default 1`] = `
+<div
+  className="root"
+>
+  <a
+    className="root logo"
+    href="/"
+    onClick={[Function]}
+    onMouseEnter={[Function]}
+  >
+    <span
+      className="bold"
+    >
+      netflix
+    </span>
+    roulete
+  </a>
+  <h2
+    className="title"
+  >
+    Page not found
+  </h2>
+  <a
+    className="root primaryOutline"
+    href="/"
+    onClick={[Function]}
+    onMouseEnter={[Function]}
+  >
+    Go back to home
+  </a>
+</div>
+`;

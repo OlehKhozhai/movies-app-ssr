@@ -1,0 +1,35 @@
+@import 'assets/styles/mixins/colors';
+
+.root {
+  padding: 15px 25px;
+  border: none;
+  font-size: 20px;
+  border-radius: 5px;
+  color: $primary-color;
+  cursor: pointer;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.primary {
+  background-color: $secondary-bg;
+
+  &:hover {
+    background-color: $secondary-dark-bg;
+  }
+}
+
+.primaryOutline {
+  background-color: transparent;
+  border: 1px solid $primary-border;
+  color: $secondary-color;
+}
+
+.secondary {
+  background-color: $primary-light-bg;
+  color: $secondary-color;
+
+  &:hover {
+    background-color: $primary-dark-bg;
+  }
+}

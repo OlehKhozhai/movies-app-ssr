@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input component should render Input component by default 1`] = `
+<div
+  className="root"
+>
+  <label
+    className="label"
+  >
+    label
+  </label>
+  <input
+    className="input"
+    name="name"
+    onBlur={[MockFunction]}
+    onChange={[MockFunction]}
+    value="value"
+  />
+</div>
+`;
+
+exports[`Input component should render Input component with error message 1`] = `
+<div
+  className="root"
+>
+  <label
+    className="label"
+  >
+    label
+  </label>
+  <input
+    className="input errorInput"
+    name="name"
+    onBlur={[MockFunction]}
+    onChange={[MockFunction]}
+    type="password"
+    value="value"
+  />
+  <span
+    className="passwordVisibilityIcon"
+    onClick={[Function]}
+  >
+    ^
+  </span>
+  <p
+    className="root errorMessage"
+  >
+    Error message
+  </p>
+</div>
+`;
+
+exports[`Input component should render Input component with type of password 1`] = `
+<div
+  className="root"
+>
+  <label
+    className="label"
+  >
+    label
+  </label>
+  <input
+    className="input"
+    name="name"
+    onBlur={[MockFunction]}
+    onChange={[MockFunction]}
+    type="password"
+    value="value"
+  />
+  <span
+    className="passwordVisibilityIcon"
+    onClick={[Function]}
+  >
+    ?
+  </span>
+</div>
+`;

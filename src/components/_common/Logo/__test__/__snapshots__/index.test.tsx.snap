@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Logo component should render Logo component by default 1`] = `
+<a
+  className="root"
+  href="/"
+  onClick={[Function]}
+  onMouseEnter={[Function]}
+>
+  <span
+    className="bold"
+  >
+    netflix
+  </span>
+  roulete
+</a>
+`;

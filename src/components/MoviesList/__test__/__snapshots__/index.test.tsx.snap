@@ -1,0 +1,266 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MoviesList component should render MoviesList component by default 1`] = `
+<div
+  className="root"
+>
+  <h2>
+    Loading
+  </h2>
+</div>
+`;
+
+exports[`MoviesList component should render MoviesList component with movies 1`] = `
+<div
+  className="root"
+>
+  <h3
+    className="counter"
+  >
+    2
+     movies found
+  </h3>
+  <li
+    className="root"
+    onClick={[Function]}
+  >
+    <div
+      className="root dropdown"
+    >
+      <span
+        className="threeDots"
+        onClick={[Function]}
+      >
+        ...
+      </span>
+    </div>
+    <div
+      style={
+        Object {
+          "boxSizing": "border-box",
+          "display": "block",
+          "margin": 0,
+          "overflow": "hidden",
+          "position": "relative",
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "display": "block",
+            "paddingTop": "150%",
+          }
+        }
+      />
+      <noscript>
+        <img
+          alt="Movie 1"
+          className="image"
+          data-nimg={true}
+          decoding="async"
+          sizes="100vw"
+          src="/_next/image?url=https%3A%2F%2Fvia.placeholder.com%2F330x450&w=3840&q=75"
+          srcSet="/_next/image?url=https%3A%2F%2Fvia.placeholder.com%2F330x450&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fvia.placeholder.com%2F330x450&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fvia.placeholder.com%2F330x450&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fvia.placeholder.com%2F330x450&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fvia.placeholder.com%2F330x450&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fvia.placeholder.com%2F330x450&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fvia.placeholder.com%2F330x450&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fvia.placeholder.com%2F330x450&w=3840&q=75 3840w"
+          style={
+            Object {
+              "border": "none",
+              "bottom": 0,
+              "boxSizing": "border-box",
+              "display": "block",
+              "height": 0,
+              "left": 0,
+              "margin": "auto",
+              "maxHeight": "100%",
+              "maxWidth": "100%",
+              "minHeight": "100%",
+              "minWidth": "100%",
+              "objectFit": undefined,
+              "objectPosition": undefined,
+              "padding": 0,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+              "width": 0,
+            }
+          }
+        />
+      </noscript>
+      <img
+        alt="Movie 1"
+        className="image"
+        data-nimg={true}
+        decoding="async"
+        src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+        style={
+          Object {
+            "border": "none",
+            "bottom": 0,
+            "boxSizing": "border-box",
+            "display": "block",
+            "height": 0,
+            "left": 0,
+            "margin": "auto",
+            "maxHeight": "100%",
+            "maxWidth": "100%",
+            "minHeight": "100%",
+            "minWidth": "100%",
+            "objectFit": undefined,
+            "objectPosition": undefined,
+            "padding": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+            "width": 0,
+          }
+        }
+      />
+    </div>
+    <div
+      className="titleAndImageWrapper"
+    >
+      <h4
+        className="title"
+      >
+        Movie 1
+      </h4>
+      <span
+        className="year"
+      >
+        1999
+      </span>
+    </div>
+    <h5
+      className="genre"
+    >
+      <span>
+         
+        Documentary
+         |
+      </span>
+    </h5>
+  </li>
+  <li
+    className="root"
+    onClick={[Function]}
+  >
+    <div
+      className="root dropdown"
+    >
+      <span
+        className="threeDots"
+        onClick={[Function]}
+      >
+        ...
+      </span>
+    </div>
+    <div
+      style={
+        Object {
+          "boxSizing": "border-box",
+          "display": "block",
+          "margin": 0,
+          "overflow": "hidden",
+          "position": "relative",
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "display": "block",
+            "paddingTop": "150%",
+          }
+        }
+      />
+      <noscript>
+        <img
+          alt="Movie 1"
+          className="image"
+          data-nimg={true}
+          decoding="async"
+          sizes="100vw"
+          src="/_next/image?url=https%3A%2F%2Fvia.placeholder.com%2F330x450&w=3840&q=75"
+          srcSet="/_next/image?url=https%3A%2F%2Fvia.placeholder.com%2F330x450&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fvia.placeholder.com%2F330x450&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fvia.placeholder.com%2F330x450&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fvia.placeholder.com%2F330x450&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fvia.placeholder.com%2F330x450&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fvia.placeholder.com%2F330x450&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fvia.placeholder.com%2F330x450&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fvia.placeholder.com%2F330x450&w=3840&q=75 3840w"
+          style={
+            Object {
+              "border": "none",
+              "bottom": 0,
+              "boxSizing": "border-box",
+              "display": "block",
+              "height": 0,
+              "left": 0,
+              "margin": "auto",
+              "maxHeight": "100%",
+              "maxWidth": "100%",
+              "minHeight": "100%",
+              "minWidth": "100%",
+              "objectFit": undefined,
+              "objectPosition": undefined,
+              "padding": 0,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+              "width": 0,
+            }
+          }
+        />
+      </noscript>
+      <img
+        alt="Movie 1"
+        className="image"
+        data-nimg={true}
+        decoding="async"
+        src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+        style={
+          Object {
+            "border": "none",
+            "bottom": 0,
+            "boxSizing": "border-box",
+            "display": "block",
+            "height": 0,
+            "left": 0,
+            "margin": "auto",
+            "maxHeight": "100%",
+            "maxWidth": "100%",
+            "minHeight": "100%",
+            "minWidth": "100%",
+            "objectFit": undefined,
+            "objectPosition": undefined,
+            "padding": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+            "width": 0,
+          }
+        }
+      />
+    </div>
+    <div
+      className="titleAndImageWrapper"
+    >
+      <h4
+        className="title"
+      >
+        Movie 1
+      </h4>
+      <span
+        className="year"
+      >
+        1999
+      </span>
+    </div>
+    <h5
+      className="genre"
+    >
+      <span>
+         
+        Documentary
+         |
+      </span>
+    </h5>
+  </li>
+</div>
+`;

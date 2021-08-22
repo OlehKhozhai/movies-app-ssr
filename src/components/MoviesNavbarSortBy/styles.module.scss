@@ -1,0 +1,12 @@
+@import 'assets/styles/mixins/colors';
+
+.root {
+  display: flex;
+  align-items: center;
+}
+
+.label {
+  color: $primary-dark-color;
+  text-transform: uppercase;
+  margin-right: 40px;
+}

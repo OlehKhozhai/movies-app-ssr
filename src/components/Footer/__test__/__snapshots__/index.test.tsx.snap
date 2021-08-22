@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer component should render Footer component by default 1`] = `
+<footer
+  className="root"
+>
+  <a
+    className="root"
+    href="/"
+    onClick={[Function]}
+    onMouseEnter={[Function]}
+  >
+    <span
+      className="bold"
+    >
+      netflix
+    </span>
+    roulete
+  </a>
+</footer>
+`;

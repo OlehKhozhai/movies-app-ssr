@@ -1,0 +1,52 @@
+@import 'assets/styles/mixins/colors';
+
+.root {
+  position: relative;
+}
+
+.value {
+  text-transform: uppercase;
+  position: relative;
+  cursor: pointer;
+
+  &::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    border: solid $primary-border;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+    right: -15px;
+    top: 5px;
+  }
+}
+
+.threeDots {
+  transform: rotate(90deg);
+  font-size: 30px;
+  cursor: pointer;
+  display: block;
+}
+
+.dropdown {
+  position: absolute;
+  cursor: pointer;
+  top: 30px;
+  left: -10px;
+  width: 165px;
+  background-color: $primary-light-bg;
+  border-radius: 5px;
+  border: 1px solid $tertiary-border;
+  z-index: 1;
+}
+
+.dropdownOption {
+  padding: 10px 15px;
+  text-transform: capitalize;
+
+  &:hover {
+    background-color: $primary-dark-bg;
+    border-radius: 5px;
+  }
+}

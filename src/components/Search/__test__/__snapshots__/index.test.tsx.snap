@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Search component should render markup by default 1`] = `
+<div
+  className="root"
+>
+  <input
+    className="input"
+    onChange={[Function]}
+    placeholder="What do you want to watch?"
+    value=""
+  />
+  <button
+    className="root primary button"
+    disabled={true}
+    onClick={[Function]}
+    type="button"
+  >
+    Search
+  </button>
+</div>
+`;

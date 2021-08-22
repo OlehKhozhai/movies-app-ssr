@@ -1,0 +1,8 @@
+@import 'assets/styles/mixins/colors';
+
+.root {
+  font-size: 14px;
+  color: $secondary-color;
+  position: absolute;
+  text-transform: uppercase;
+}

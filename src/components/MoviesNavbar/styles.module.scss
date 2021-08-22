@@ -1,0 +1,12 @@
+@import 'assets/styles/mixins/colors';
+
+.root {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: $primary-bg;
+  color: $primary-color;
+  padding: 0 60px;
+  border-bottom: 2px solid $secondary-border;
+}

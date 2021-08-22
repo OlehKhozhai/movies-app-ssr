@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MoviesNavbarTabItem component should render MoviesNavbarTabItem component by default 1`] = `
+<li
+  className="root"
+  onClick={[Function]}
+>
+  test
+</li>
+`;
+
+exports[`MoviesNavbarTabItem component should render active MoviesNavbarTabItem component 1`] = `
+<li
+  className="root active"
+  onClick={[Function]}
+>
+  test
+</li>
+`;

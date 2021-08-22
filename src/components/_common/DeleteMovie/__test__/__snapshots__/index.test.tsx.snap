@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DeleteMovie component should render DeleteMovie component by default 1`] = `
+Array [
+  <h2
+    className="title"
+  >
+    Delete movie
+  </h2>,
+  <h5
+    className="subTitle"
+  >
+    Are you sure you want to delete this movie?
+  </h5>,
+  <button
+    className="root primary button"
+    disabled={false}
+    onClick={[Function]}
+    type="button"
+  >
+    Confirm
+  </button>,
+]
+`;

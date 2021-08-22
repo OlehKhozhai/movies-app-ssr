@@ -1,0 +1,13 @@
+@import 'assets/styles/mixins/colors';
+
+.root {
+  margin-right: 30px;
+  text-transform: uppercase;
+  cursor: pointer;
+  padding: 20px 0;
+  border-bottom: 2px solid transparent;
+}
+
+.active {
+  border-bottom: 2px solid $primary-border;
+}

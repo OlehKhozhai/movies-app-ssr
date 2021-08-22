@@ -1,0 +1,11 @@
+@import 'assets/styles/mixins/colors';
+
+.root {
+  padding: 10px 15px;
+  text-transform: capitalize;
+
+  &:hover {
+    background-color: $primary-dark-bg;
+    border-radius: 5px;
+  }
+}

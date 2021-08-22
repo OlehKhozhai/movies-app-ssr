@@ -1,0 +1,12 @@
+.root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+  margin-top: 100px;
+}
+
+.title {
+  font-size: 30px;
+  margin-bottom: 20px;
+}

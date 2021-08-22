@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MoviesNavbarTabs component should render MoviesNavbarTabItem component by default 1`] = `
+<ul
+  className="root"
+>
+  <li
+    className="root active"
+    onClick={[Function]}
+  >
+    all
+  </li>
+  <li
+    className="root"
+    onClick={[Function]}
+  >
+    documentary
+  </li>
+  <li
+    className="root"
+    onClick={[Function]}
+  >
+    comedy
+  </li>
+  <li
+    className="root"
+    onClick={[Function]}
+  >
+    horror
+  </li>
+  <li
+    className="root"
+    onClick={[Function]}
+  >
+    crime
+  </li>
+</ul>
+`;

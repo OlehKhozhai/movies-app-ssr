@@ -1,0 +1,8 @@
+@import 'assets/styles/mixins/colors';
+
+.root {
+  width: 100%;
+  height: 6px;
+  background-color: $primary-light-bg;
+  border: none;
+}

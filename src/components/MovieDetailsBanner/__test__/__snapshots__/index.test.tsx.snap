@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MovieDetailsBanner component should render MovieDetailsBanner component by default 1`] = `
+<div
+  className="root"
+>
+  <header
+    className="header"
+  >
+    <a
+      className="root"
+      href="/"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+    >
+      <span
+        className="bold"
+      >
+        netflix
+      </span>
+      roulete
+    </a>
+    <a
+      className="root primary"
+      href="/"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+    >
+      Search
+    </a>
+  </header>
+  <div
+    className="content"
+  >
+    <div
+      className="imageWrapper"
+    >
+      <img
+        className="image"
+        src="https://via.placeholder.com/330x450"
+      />
+    </div>
+    <div>
+      <h2
+        className="title"
+      >
+        Movie 1
+      </h2>
+      <span
+        className="genre"
+      >
+        <span>
+           
+          Documentary
+           |
+        </span>
+      </span>
+      <div
+        className="warnRow"
+      >
+        <span
+          className="year"
+        >
+          1999
+        </span>
+        <span>
+          12312
+        </span>
+      </div>
+      <p
+        className="description"
+      >
+        Overview
+      </p>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button component should render Button component as a link 1`] = `
+<a
+  className="root primary"
+  href="test.com"
+  onClick={[Function]}
+  onMouseEnter={[Function]}
+>
+  Button title
+</a>
+`;
+
+exports[`Button component should render Button component as link with children 1`] = `
+<a
+  className="root secondary"
+  href="test.com"
+  onClick={[Function]}
+  onMouseEnter={[Function]}
+>
+  Button title
+</a>
+`;
+
+exports[`Button component should render Button component by default 1`] = `
+<button
+  className="root primary"
+  disabled={false}
+  type="button"
+>
+  Button title
+</button>
+`;
+
+exports[`Button component should render Button component with all props 1`] = `
+<button
+  className="root secondary"
+  disabled={false}
+  onClick={[Function]}
+  type="button"
+>
+  Button title
+</button>
+`;
+
+exports[`Button component should render Button component with children 1`] = `
+<button
+  className="root secondary"
+  disabled={false}
+  onClick={[Function]}
+  type="button"
+>
+  Button title
+</button>
+`;

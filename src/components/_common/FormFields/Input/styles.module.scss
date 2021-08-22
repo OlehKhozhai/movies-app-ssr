@@ -1,0 +1,48 @@
+@import 'assets/styles/mixins/colors';
+
+.root {
+  display: flex;
+  flex-flow: column;
+  padding-bottom: 30px;
+  position: relative;
+}
+
+.label {
+  text-transform: uppercase;
+  color: $secondary-color;
+}
+
+.input {
+  margin-top: 15px;
+  padding: 15px;
+  border-radius: 4px;
+  font-size: 22px;
+  border: 1px solid transparent;
+  background-color: $primary-light-bg;
+  color: $primary-color;
+
+  &:focus {
+    outline: none;
+  }
+
+  &::-webkit-calendar-picker-indicator {
+    opacity: 0.6;
+    filter: invert(0.8);
+    cursor: pointer;
+  }
+}
+
+
+.errorInput {
+  border: 1px solid $primary-border;
+}
+
+.errorMessage {
+  bottom: 10px;
+}
+
+.passwordVisibilityIcon {
+  position: absolute;
+  right: 0;
+  top: 45%;
+}

@@ -1,0 +1,55 @@
+@import 'assets/styles/mixins/colors';
+
+.root {
+  display: flex;
+  flex-flow: column;
+  padding-bottom: 30px;
+  position: relative;
+  cursor: pointer;
+}
+
+.label {
+  text-transform: uppercase;
+  color: $secondary-color;
+}
+
+.input {
+  margin-top: 15px;
+  padding: 15px;
+  border-radius: 4px;
+  font-size: 22px;
+  border: 1px solid transparent;
+  background-color: $primary-light-bg;
+  color: $primary-color;
+  cursor: pointer;
+}
+
+.inputError {
+  border-color: $primary-border;
+}
+
+.dropdown {
+  position: absolute;
+  top: 92px;
+  right: 0;
+  z-index: 5;
+  padding: 10px 15px;
+  background: $primary-dark-bg;
+  left: 0;
+  border-radius: 5px;
+}
+
+.dropdownItem {
+  padding: 10px 0;
+  font-size: 22px;
+  color: $primary-color;
+  text-transform: capitalize;
+}
+
+.checkbox {
+  margin-right: 10px;
+}
+
+.errorMessage {
+  bottom: 10px;
+}

@@ -1,0 +1,46 @@
+@import 'assets/styles/mixins/colors';
+
+.root {
+  max-width: 330px;
+  width: 100%;
+  margin-bottom: 50px;
+  color: $primary-dark-color;
+  position: relative;
+  cursor: pointer;
+}
+
+.image {
+  width: 100%;
+  height: 495px;
+  display: block;
+  margin: 0 auto;
+}
+
+.titleAndImageWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 0 15px;
+}
+
+.title {
+  font-size: 18px;
+}
+
+.year {
+  padding: 5px 20px;
+  border: 1px solid $tertiary-border;
+  border-radius: 3px;
+  font-size: 14px;
+}
+
+.genre {
+  font-size: 14px;
+}
+
+.dropdown {
+  position: absolute;
+  top: 10px;
+  right: 0;
+  z-index: 10;
+}

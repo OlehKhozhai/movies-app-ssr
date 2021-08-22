@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MoviesNavbar component should render MoviesNavbar component by default 1`] = `
+<nav
+  className="root"
+>
+  ---MoviesNavbarTabs---
+  ---MoviesNavbarSortBy---
+</nav>
+`;

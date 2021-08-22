@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DropdownOption component should render DropdownOption component by default 1`] = `
+<li
+  className="root"
+  onClick={[Function]}
+>
+  Test option
+</li>
+`;

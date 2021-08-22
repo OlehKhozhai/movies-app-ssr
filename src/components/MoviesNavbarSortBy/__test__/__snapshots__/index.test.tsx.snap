@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MoviesNavbarSortBy component should render MoviesNavbarSortBy component by default 1`] = `
+<div
+  className="root"
+>
+  <span
+    className="label"
+  >
+    Sort By
+  </span>
+  <div
+    className="root"
+  >
+    <span
+      className="threeDots"
+      onClick={[Function]}
+    >
+      ...
+    </span>
+  </div>
+</div>
+`;
+
+exports[`MoviesNavbarSortBy component should render MoviesNavbarSortBy component with open dropdown 1`] = `
+<div
+  className="root"
+>
+  <span
+    className="label"
+  >
+    Sort By
+  </span>
+  <div
+    className="root"
+  >
+    <span
+      className="threeDots"
+      onClick={[MockFunction]}
+    >
+      ...
+    </span>
+    <ul
+      className="dropdown"
+    >
+      <li
+        className="root"
+        onClick={[Function]}
+      >
+        release date
+      </li>
+      <li
+        className="root"
+        onClick={[Function]}
+      >
+        rating
+      </li>
+    </ul>
+  </div>
+</div>
+`;

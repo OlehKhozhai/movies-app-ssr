@@ -1,0 +1,91 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Select component should render Select component by default 1`] = `
+<div
+  className="root"
+  onClick={[MockFunction]}
+>
+  <label
+    className="label"
+  >
+    label
+  </label>
+  <input
+    className="input"
+    disabled={true}
+    placeholder="placeholder"
+    value="one, two"
+  />
+</div>
+`;
+
+exports[`Select component should render Select component with error message 1`] = `
+<div
+  className="root"
+  onClick={[Function]}
+>
+  <label
+    className="label"
+  >
+    label
+  </label>
+  <input
+    className="input inputError"
+    disabled={true}
+    placeholder="placeholder"
+    value="one, two"
+  />
+  <p
+    className="root errorMessage"
+  >
+    Error message
+  </p>
+</div>
+`;
+
+exports[`Select component should render Select component with open dropdown 1`] = `
+<div
+  className="root"
+  onClick={[MockFunction]}
+>
+  <label
+    className="label"
+  >
+    label
+  </label>
+  <input
+    className="input"
+    disabled={true}
+    placeholder="placeholder"
+    value="one, two"
+  />
+  <ul
+    className="dropdown"
+  >
+    <li
+      className="dropdownItem"
+    >
+      <input
+        checked={true}
+        className="checkbox"
+        onChange={[Function]}
+        type="checkbox"
+        value="one"
+      />
+      one
+    </li>
+    <li
+      className="dropdownItem"
+    >
+      <input
+        checked={true}
+        className="checkbox"
+        onChange={[Function]}
+        type="checkbox"
+        value="two"
+      />
+      two
+    </li>
+  </ul>
+</div>
+`;

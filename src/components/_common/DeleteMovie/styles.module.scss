@@ -1,0 +1,17 @@
+@import 'assets/styles/mixins/colors';
+
+.title {
+  text-transform: uppercase;
+  font-size: 40px;
+  text-align: left;
+}
+
+.subTitle {
+  margin: 50px 0;
+  font-size: 18px;
+}
+
+.button {
+  margin-left: auto;
+  display: block;
+}

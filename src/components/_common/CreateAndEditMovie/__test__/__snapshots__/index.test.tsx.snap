@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CreateAndEditMovie component should render edit movie markup 1`] = `
+<form
+  action="#"
+  className="root"
+  data-testid="form"
+  onReset={[Function]}
+  onSubmit={[Function]}
+>
+  <h2
+    className="title"
+  >
+    Edit movie
+  </h2>
+  ---Input---
+  ---Input---
+  ---Input---
+  ---Select---
+  ---Input---
+  ---Input---
+  <div
+    className="buttonsWrapper"
+  >
+    <button
+      className="root primaryOutline resetBtn"
+      disabled={false}
+      type="button"
+    >
+      Reset
+    </button>
+    <button
+      className="root primary"
+      disabled={false}
+      type="submit"
+    >
+      Save
+    </button>
+  </div>
+</form>
+`;
+
+exports[`CreateAndEditMovie component should render markup by default 1`] = `
+<form
+  action="#"
+  className="root"
+  data-testid="form"
+  onReset={[Function]}
+  onSubmit={[Function]}
+>
+  <h2
+    className="title"
+  >
+    Add movie
+  </h2>
+  ---Input---
+  ---Input---
+  ---Input---
+  ---Select---
+  ---Input---
+  ---Input---
+  <div
+    className="buttonsWrapper"
+  >
+    <button
+      className="root primaryOutline resetBtn"
+      disabled={false}
+      type="button"
+    >
+      Reset
+    </button>
+    <button
+      className="root primary"
+      disabled={false}
+      type="submit"
+    >
+      Submit
+    </button>
+  </div>
+</form>
+`;

@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dropdown component should render Dropdown component by default 1`] = `
+<div
+  className="root"
+>
+  <span
+    className="threeDots"
+    onClick={[Function]}
+  >
+    ...
+  </span>
+  <ul
+    className="dropdown"
+  >
+    <li
+      className="root"
+      onClick={[Function]}
+    >
+      test option 1
+    </li>
+    <li
+      className="root"
+      onClick={[Function]}
+    >
+      test option 2
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`Dropdown component should render Dropdown component with default value 1`] = `
+<div
+  className="root"
+>
+  <span
+    className="value"
+    onClick={[Function]}
+  >
+    Default value
+  </span>
+  <ul
+    className="dropdown"
+  >
+    <li
+      className="root"
+      onClick={[Function]}
+    >
+      test option 1
+    </li>
+    <li
+      className="root"
+      onClick={[Function]}
+    >
+      test option 2
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`Dropdown component should render Dropdown component with isOpen value of false  1`] = `
+<div
+  className="root"
+>
+  <span
+    className="threeDots"
+    onClick={[Function]}
+  >
+    ...
+  </span>
+</div>
+`;
